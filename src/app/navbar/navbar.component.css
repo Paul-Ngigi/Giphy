@@ -1,16 +1,12 @@
-.container{
-    align-items: center;
-    justify-content: center;
-}
-.container .navbar{
+.navbar{
     background-color: black;
 }
-.container .navbar img{
+.navbar img{
     width: 200px;
     height: 60px;
     object-fit: cover;
 }
-.container .navbar .create-button{
+.navbar .create-button{
     width: 80px;
     height: 35px;
     outline: none;
@@ -21,7 +17,7 @@
     background-color: #5607F3;
     border-radius: 2px;
 }
-.container .navbar .upload-button{
+.navbar .upload-button{
     width: 80px;
     height: 35px;
     outline: none;
@@ -32,16 +28,16 @@
     background-color: #5607F3;
     border-radius: 2px;
 }
-.container .navbar .fa-ellipsis-v{
+.navbar .fa-ellipsis-v{
     font-size: 20px;
     margin-top: 10px;
     margin-left: 10px;
     color: white;
 }
-.container ul li a{
+ul li a{
     color: white;
 }
-.container li .avatar{
+li .avatar{
     width: 50px;
     height: 40px;
     object-fit: fill;
@@ -51,28 +47,28 @@
     z-index: 1;
     position: relative;
 }
-.container .dropdown{
+.dropdown{
     border-style: none !important;
     font-size: 15px !important;
 }
-.container .dropdown button{
+.dropdown button{
     border-style: none !important;
     font-size: 13px !important;
     width: 120px;
     height: 40px;
     box-shadow: none;
 }
-.container .dropdown-menu{
+.dropdown-menu{
     background-color: grey;
 }
-.container .dropdown-item:hover{
+.dropdown-item:hover{
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)) !important;
 }
-.container .active{
+.active{
     margin-top: -2px;
     margin-left: 6px;
-    border-bottom:4px solid blueviolet;
+    border-bottom:4px solid #4C8A65;
 }
-.container .active:hover{
+.active:hover{
     background-color:#2C4770;
 }
